@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather website</title>
+    <script src="https://kit.fontawesome.com/ef7a3fcd6b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+
+    <div class="main_container">
+        <div class="userSearch">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="enter your location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <div class="weather_box">
+            <div class="inside_box">
+                <div class="weather_info">
+                    <div class="weather">
+                        <img src="cloud.png">
+                        <p class="temp">0<span>&deg;C</span></p>
+                        <p class="description">broken clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="weather_details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <div class="humidity_info">
+                        <span>0%</span>
+                    </div>
+                    <p>humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <div class="_info">
+                        <span>0Km/h</span>
+                    </div>
+                    <p>wind speed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden">
+            <div class="box">
+                <img src="404.png" >
+                <p>Oops! City Not Found</p>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
